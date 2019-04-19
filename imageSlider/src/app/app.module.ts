@@ -1,15 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { AppComponent } from './app.component';
+import { MySliderComponent } from './my-slider/my-slider.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MySliderComponent
   ],
   imports: [
-    BrowserModule,
-    Ng2CarouselamosModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
