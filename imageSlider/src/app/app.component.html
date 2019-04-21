@@ -1,19 +1,2 @@
-<div id="container">
-    <button id="reset-btn" class="slide-btn" (click)='resetImages()'>reset</button>
-    <div ng2-carouselamos class="slides-wrapper" [items]="items" [width]="900" [$prev]="prev" [$next]="next" [$item]="item">
-    </div>
-
-    <ng-template #prev>
-        <div class="slide-arrow" id="left-arrow">&#8592;</div>
-    </ng-template>
-    <ng-template #next>
-        <div class="slide-arrow" id="right-arrow">&#8594;</div>
-    </ng-template>
-    <ng-template #item let-item let-i="index">
-        <div class="items">
-            <img class="main-image" src="{{ item.name }}">
-            <button id="remove-btn" class="slide-btn" (click)='removeImage(item.index)'>remove</button>
-            <button id="dup-btn" class="slide-btn" (click)='duplicateImage(item.catalog)'>duplicate</button>
-        </div>
-    </ng-template>
-</div>
+<home-screen></home-screen>
+<router-outlet></router-outlet>
