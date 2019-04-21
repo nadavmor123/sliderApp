@@ -20,3 +20,41 @@ img.main-image {
     width: 900px;
     height: 500px;
 }
+
+button.slide-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div.slide-arrow {
+    width: 100px;
+    font-size: -webkit-xxx-large;
+}
+
+button#remove-btn {
+    position: relative;
+    top: -40px;
+    background: lightcoral;
+}
+
+button#dup-btn {
+    position: relative;
+    top: -40px;
+    background: lightsteelblue;
+}
+
+button#reset-btn {
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    background: forestgreen;
+    color: wheat;
+}
