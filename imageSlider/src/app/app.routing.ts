@@ -5,7 +5,7 @@ import { HomeScreenComponent } from './home-screen/home-screen.component';
 
 const appRoutes : Routes = [
     {
-        path:"home",
+        path:"",
         component:HomeScreenComponent
     }
 ];
