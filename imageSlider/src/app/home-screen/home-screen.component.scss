@@ -1,5 +1,12 @@
 div#btn-panel {
     position: absolute;
     top: 0px;
-    left: 25%;
+    left: 33%;
+    width: 33%;
+}
+
+div#btn-panel>button {
+    width: 49%;
+    height: 25px;
+    line-height: 5px;
 }
